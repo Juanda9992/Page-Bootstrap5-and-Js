@@ -11,7 +11,27 @@
 .comida {
   background-image: url(../images/fried-fish-with-lemon-slices.jpg);
   background-size: cover;
-  background-position: top;
-  height: 40rem; }
+  height: 30rem; }
+
+@media (min-width: 768px) {
+  .informacion {
+    height: 35rem; }
+
+  html {
+    font-size: 19px; } }
+@media (min-width: 992px) {
+  .informacion {
+    height: 35rem; }
+
+  html {
+    font-size: 22px; }
+
+  .cucumber {
+    height: 35rem; }
+
+  .comida {
+    background-size: cover;
+    background-position: top;
+    background-repeat: none; } }
 
 /*# sourceMappingURL=estilos.css.map */
